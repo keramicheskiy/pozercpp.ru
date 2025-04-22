@@ -3,5 +3,6 @@ version: '3.9'
 services:
   pozercpp_web:
     build: .
+    container_name: pozercpp_web
     expose:
       - "5001:5000"
